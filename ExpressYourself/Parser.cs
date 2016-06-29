@@ -36,7 +36,7 @@ namespace ExpressYourself
             var match = titleExpression.Match(str);
             if (!match.Success)
             {
-                return "Title Not Found";
+                return "Type Not Found";
             }
             else
             {
@@ -51,7 +51,7 @@ namespace ExpressYourself
             var match = titleExpression.Match(str);
             if (!match.Success)
             {
-                return "Title Not Found";
+                return "Length Not Found";
             }
             else
             {
@@ -73,5 +73,10 @@ namespace ExpressYourself
                 return true;
             }
         }
+
+        //public static string GetBook(string str)
+        //{
+
+        //}
     }
 }
